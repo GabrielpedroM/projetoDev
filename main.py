@@ -6,8 +6,9 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return{"message": "pycharm é uma droga"}
+    return{"message": "pycharm é legal"}
 
-@app.get("/test")
+
+@app.get("/funcaotest")
 async def funcaotest():
     return {"teste": True, "num_aletorio": random.randint(0, 1000)}
