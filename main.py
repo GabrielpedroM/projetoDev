@@ -4,8 +4,8 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return{"message": "pycharm é uma droga"}
+    return{"message": "pycharm é legal"}
 
-@app.get("/test1")
+@app.get("/funcaotest")
 async def funcaotest():
     return {"teste": "deu certo"}
